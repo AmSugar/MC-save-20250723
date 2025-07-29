@@ -13,16 +13,26 @@
       "minecraft:taiga": "2025-07-23 15:58:53 +0800",
       "minecraft:deep_ocean": "2025-07-25 18:04:12 +0800",
       "minecraft:deep_cold_ocean": "2025-07-25 18:03:53 +0800",
+      "minecraft:ice_spikes": "2025-07-28 13:56:24 +0800",
       "minecraft:frozen_ocean": "2025-07-23 15:57:45 +0800",
+      "minecraft:eroded_badlands": "2025-07-28 12:59:41 +0800",
+      "minecraft:desert": "2025-07-28 12:56:41 +0800",
       "minecraft:frozen_river": "2025-07-23 15:44:14 +0800",
       "minecraft:windswept_forest": "2025-07-26 15:47:50 +0800",
       "minecraft:ocean": "2025-07-25 18:04:50 +0800",
       "minecraft:jungle": "2025-07-26 16:00:54 +0800",
+      "minecraft:cherry_grove": "2025-07-28 13:40:04 +0800",
       "minecraft:birch_forest": "2025-07-26 15:44:40 +0800",
+      "minecraft:old_growth_spruce_taiga": "2025-07-28 13:26:07 +0800",
       "minecraft:bamboo_jungle": "2025-07-26 16:13:09 +0800",
+      "minecraft:wooded_badlands": "2025-07-28 13:04:53 +0800",
+      "minecraft:warm_ocean": "2025-07-28 12:55:11 +0800",
+      "minecraft:badlands": "2025-07-28 12:59:08 +0800",
       "minecraft:flower_forest": "2025-07-24 23:07:18 +0800",
+      "minecraft:savanna_plateau": "2025-07-28 13:38:46 +0800",
       "minecraft:beach": "2025-07-24 23:03:19 +0800",
       "minecraft:dark_forest": "2025-07-26 15:46:47 +0800",
+      "minecraft:stony_peaks": "2025-07-28 13:36:07 +0800",
       "minecraft:mangrove_swamp": "2025-07-26 15:55:14 +0800",
       "minecraft:sparse_jungle": "2025-07-26 16:07:55 +0800",
       "minecraft:river": "2025-07-23 16:07:37 +0800",
@@ -37,7 +47,8 @@
       "minecraft:swamp": "2025-07-26 15:50:21 +0800",
       "minecraft:meadow": "2025-07-24 15:59:55 +0800",
       "minecraft:savanna": "2025-07-24 16:04:53 +0800",
-      "minecraft:plains": "2025-07-23 16:07:32 +0800"
+      "minecraft:plains": "2025-07-23 16:07:32 +0800",
+      "minecraft:jagged_peaks": "2025-07-28 13:48:54 +0800"
     },
     "done": false
   },
@@ -891,6 +902,7 @@
   "minecraft:adventure/kill_all_mobs": {
     "criteria": {
       "minecraft:blaze": "2025-07-23 17:49:19 +0800",
+      "minecraft:pillager": "2025-07-28 13:57:59 +0800",
       "minecraft:skeleton": "2025-07-23 16:44:55 +0800",
       "minecraft:zombified_piglin": "2025-07-23 17:52:07 +0800",
       "minecraft:ghast": "2025-07-24 15:17:50 +0800",
@@ -902,6 +914,7 @@
       "minecraft:stray": "2025-07-24 17:36:22 +0800",
       "minecraft:enderman": "2025-07-25 18:49:44 +0800",
       "minecraft:magma_cube": "2025-07-23 17:49:24 +0800",
+      "minecraft:spider": "2025-07-27 20:26:02 +0800",
       "minecraft:zombie": "2025-07-23 17:35:44 +0800",
       "minecraft:creeper": "2025-07-23 17:11:28 +0800",
       "minecraft:drowned": "2025-07-23 18:14:46 +0800",
@@ -3536,45 +3549,15 @@
     },
     "done": true
   },
+  "minecraft:end/enter_end_gateway": {
+    "criteria": {
+      "entered_end_gateway": "2025-07-26 13:53:06 +0800"
+    },
+    "done": true
+  },
   "minecraft:recipes/misc/popped_chorus_fruit": {
     "criteria": {
       "has_chorus_fruit": "2025-07-26 13:54:13 +0800"
-    },
-    "done": true
-  },
-  "minecraft:recipes/building_blocks/jungle_wood": {
-    "criteria": {
-      "has_log": "2025-07-26 16:26:50 +0800"
-    },
-    "done": true
-  },
-  "minecraft:recipes/building_blocks/jungle_planks": {
-    "criteria": {
-      "has_logs": "2025-07-26 16:26:50 +0800"
-    },
-    "done": true
-  },
-  "minecraft:recipes/redstone/sticky_piston": {
-    "criteria": {
-      "has_slime_ball": "2025-07-26 15:50:55 +0800"
-    },
-    "done": true
-  },
-  "minecraft:nether/brew_potion": {
-    "criteria": {
-      "potion": "2025-07-26 15:35:25 +0800"
-    },
-    "done": true
-  },
-  "minecraft:recipes/misc/spire_armor_trim_smithing_template": {
-    "criteria": {
-      "has_spire_armor_trim_smithing_template": "2025-07-26 13:59:48 +0800"
-    },
-    "done": true
-  },
-  "minecraft:recipes/misc/coast_armor_trim_smithing_template": {
-    "criteria": {
-      "has_coast_armor_trim_smithing_template": "2025-07-26 16:03:26 +0800"
     },
     "done": true
   },
@@ -3584,27 +3567,15 @@
     },
     "done": true
   },
-  "minecraft:end/enter_end_gateway": {
-    "criteria": {
-      "entered_end_gateway": "2025-07-26 13:53:06 +0800"
-    },
-    "done": true
-  },
-  "minecraft:recipes/decorations/glow_item_frame": {
-    "criteria": {
-      "has_item_frame": "2025-07-26 13:59:58 +0800"
-    },
-    "done": true
-  },
-  "minecraft:recipes/building_blocks/muddy_mangrove_roots": {
-    "criteria": {
-      "has_mangrove_roots": "2025-07-26 15:55:08 +0800"
-    },
-    "done": true
-  },
   "minecraft:end/elytra": {
     "criteria": {
       "elytra": "2025-07-26 13:59:43 +0800"
+    },
+    "done": true
+  },
+  "minecraft:recipes/misc/spire_armor_trim_smithing_template": {
+    "criteria": {
+      "has_spire_armor_trim_smithing_template": "2025-07-26 13:59:48 +0800"
     },
     "done": true
   },
@@ -3614,9 +3585,27 @@
     },
     "done": true
   },
+  "minecraft:recipes/decorations/glow_item_frame": {
+    "criteria": {
+      "has_item_frame": "2025-07-26 13:59:58 +0800"
+    },
+    "done": true
+  },
   "minecraft:story/enchant_item": {
     "criteria": {
       "enchanted_item": "2025-07-26 14:53:58 +0800"
+    },
+    "done": true
+  },
+  "minecraft:nether/brew_potion": {
+    "criteria": {
+      "potion": "2025-07-26 15:35:25 +0800"
+    },
+    "done": true
+  },
+  "minecraft:recipes/redstone/sticky_piston": {
+    "criteria": {
+      "has_slime_ball": "2025-07-26 15:50:55 +0800"
     },
     "done": true
   },
@@ -3626,7 +3615,49 @@
     },
     "done": true
   },
+  "minecraft:recipes/tools/lead": {
+    "criteria": {
+      "has_slime_ball": "2025-07-26 15:50:55 +0800"
+    },
+    "done": true
+  },
+  "minecraft:recipes/building_blocks/muddy_mangrove_roots": {
+    "criteria": {
+      "has_mangrove_roots": "2025-07-26 15:55:08 +0800"
+    },
+    "done": true
+  },
+  "minecraft:recipes/building_blocks/packed_mud": {
+    "criteria": {
+      "has_mud": "2025-07-26 15:55:19 +0800"
+    },
+    "done": true
+  },
+  "minecraft:recipes/misc/coast_armor_trim_smithing_template": {
+    "criteria": {
+      "has_coast_armor_trim_smithing_template": "2025-07-26 16:03:26 +0800"
+    },
+    "done": true
+  },
+  "minecraft:recipes/misc/coast_armor_trim_smithing_template_smithing_trim": {
+    "criteria": {
+      "has_smithing_trim_template": "2025-07-26 16:03:26 +0800"
+    },
+    "done": true
+  },
   "minecraft:recipes/decorations/moss_carpet": {
+    "criteria": {
+      "has_moss_block": "2025-07-26 16:03:36 +0800"
+    },
+    "done": true
+  },
+  "minecraft:recipes/building_blocks/mossy_cobblestone_from_moss_block": {
+    "criteria": {
+      "has_moss_block": "2025-07-26 16:03:36 +0800"
+    },
+    "done": true
+  },
+  "minecraft:recipes/building_blocks/mossy_stone_bricks_from_moss_block": {
     "criteria": {
       "has_moss_block": "2025-07-26 16:03:36 +0800"
     },
@@ -3638,21 +3669,9 @@
     },
     "done": true
   },
-  "minecraft:recipes/building_blocks/packed_mud": {
-    "criteria": {
-      "has_mud": "2025-07-26 15:55:19 +0800"
-    },
-    "done": true
-  },
   "minecraft:recipes/misc/stick_from_bamboo_item": {
     "criteria": {
       "has_bamboo": "2025-07-26 16:10:48 +0800"
-    },
-    "done": true
-  },
-  "minecraft:recipes/misc/coast_armor_trim_smithing_template_smithing_trim": {
-    "criteria": {
-      "has_smithing_trim_template": "2025-07-26 16:03:26 +0800"
     },
     "done": true
   },
@@ -3668,21 +3687,189 @@
     },
     "done": true
   },
-  "minecraft:recipes/building_blocks/mossy_cobblestone_from_moss_block": {
+  "minecraft:recipes/building_blocks/jungle_wood": {
     "criteria": {
-      "has_moss_block": "2025-07-26 16:03:36 +0800"
+      "has_log": "2025-07-26 16:26:50 +0800"
     },
     "done": true
   },
-  "minecraft:recipes/tools/lead": {
+  "minecraft:recipes/building_blocks/jungle_planks": {
     "criteria": {
-      "has_slime_ball": "2025-07-26 15:50:55 +0800"
+      "has_logs": "2025-07-26 16:26:50 +0800"
     },
     "done": true
   },
-  "minecraft:recipes/building_blocks/mossy_stone_bricks_from_moss_block": {
+  "minecraft:recipes/redstone/jungle_trapdoor": {
     "criteria": {
-      "has_moss_block": "2025-07-26 16:03:36 +0800"
+      "has_planks": "2025-07-27 11:04:01 +0800"
+    },
+    "done": true
+  },
+  "minecraft:recipes/decorations/jungle_sign": {
+    "criteria": {
+      "has_planks": "2025-07-27 11:04:01 +0800"
+    },
+    "done": true
+  },
+  "minecraft:recipes/redstone/jungle_door": {
+    "criteria": {
+      "has_planks": "2025-07-27 11:04:01 +0800"
+    },
+    "done": true
+  },
+  "minecraft:recipes/decorations/jungle_fence": {
+    "criteria": {
+      "has_planks": "2025-07-27 11:04:01 +0800"
+    },
+    "done": true
+  },
+  "minecraft:recipes/redstone/jungle_pressure_plate": {
+    "criteria": {
+      "has_planks": "2025-07-27 11:04:01 +0800"
+    },
+    "done": true
+  },
+  "minecraft:recipes/redstone/jungle_button": {
+    "criteria": {
+      "has_planks": "2025-07-27 11:04:01 +0800"
+    },
+    "done": true
+  },
+  "minecraft:recipes/building_blocks/jungle_slab": {
+    "criteria": {
+      "has_planks": "2025-07-27 11:04:01 +0800"
+    },
+    "done": true
+  },
+  "minecraft:recipes/building_blocks/jungle_stairs": {
+    "criteria": {
+      "has_planks": "2025-07-27 11:04:01 +0800"
+    },
+    "done": true
+  },
+  "minecraft:recipes/redstone/jungle_fence_gate": {
+    "criteria": {
+      "has_planks": "2025-07-27 11:04:01 +0800"
+    },
+    "done": true
+  },
+  "minecraft:recipes/building_blocks/glowstone": {
+    "criteria": {
+      "has_glowstone_dust": "2025-07-27 20:53:27 +0800"
+    },
+    "done": true
+  },
+  "minecraft:recipes/combat/spectral_arrow": {
+    "criteria": {
+      "has_glowstone_dust": "2025-07-27 20:53:27 +0800"
+    },
+    "done": true
+  },
+  "minecraft:recipes/building_blocks/dripstone_block": {
+    "criteria": {
+      "has_pointed_dripstone": "2025-07-28 11:03:28 +0800"
+    },
+    "done": true
+  },
+  "minecraft:adventure/avoid_vibration": {
+    "criteria": {
+      "avoid_vibration": "2025-07-28 11:24:25 +0800"
+    },
+    "done": true
+  },
+  "minecraft:recipes/misc/black_dye": {
+    "criteria": {
+      "has_ink_sac": "2025-07-28 11:45:52 +0800"
+    },
+    "done": true
+  },
+  "minecraft:recipes/building_blocks/waxed_oxidized_cut_copper_from_waxed_oxidized_copper_stonecutting": {
+    "criteria": {
+      "has_waxed_oxidized_copper": "2025-07-28 11:47:19 +0800"
+    },
+    "done": true
+  },
+  "minecraft:recipes/building_blocks/waxed_oxidized_cut_copper_stairs_from_waxed_oxidized_copper_stonecutting": {
+    "criteria": {
+      "has_waxed_oxidized_copper": "2025-07-28 11:47:19 +0800"
+    },
+    "done": true
+  },
+  "minecraft:recipes/building_blocks/waxed_oxidized_copper_grate": {
+    "criteria": {
+      "has_waxed_oxidized_copper": "2025-07-28 11:47:19 +0800"
+    },
+    "done": true
+  },
+  "minecraft:recipes/building_blocks/waxed_oxidized_cut_copper": {
+    "criteria": {
+      "has_waxed_oxidized_copper": "2025-07-28 11:47:19 +0800"
+    },
+    "done": true
+  },
+  "minecraft:recipes/building_blocks/waxed_oxidized_cut_copper_slab_from_waxed_oxidized_copper_stonecutting": {
+    "criteria": {
+      "has_waxed_oxidized_copper": "2025-07-28 11:47:19 +0800"
+    },
+    "done": true
+  },
+  "minecraft:recipes/redstone/waxed_oxidized_copper_bulb": {
+    "criteria": {
+      "has_waxed_oxidized_copper": "2025-07-28 11:47:19 +0800"
+    },
+    "done": true
+  },
+  "minecraft:recipes/building_blocks/waxed_oxidized_chiseled_copper_from_waxed_oxidized_copper_stonecutting": {
+    "criteria": {
+      "has_waxed_oxidized_copper": "2025-07-28 11:47:19 +0800"
+    },
+    "done": true
+  },
+  "minecraft:recipes/building_blocks/waxed_oxidized_copper_grate_from_waxed_oxidized_copper_stonecutting": {
+    "criteria": {
+      "has_waxed_oxidized_copper": "2025-07-28 11:47:19 +0800"
+    },
+    "done": true
+  },
+  "minecraft:recipes/misc/wild_armor_trim_smithing_template": {
+    "criteria": {
+      "has_wild_armor_trim_smithing_template": "2025-07-28 13:09:08 +0800"
+    },
+    "done": true
+  },
+  "minecraft:recipes/misc/wild_armor_trim_smithing_template_smithing_trim": {
+    "criteria": {
+      "has_smithing_trim_template": "2025-07-28 13:09:08 +0800"
+    },
+    "done": true
+  },
+  "minecraft:husbandry/tame_an_animal": {
+    "criteria": {
+      "tamed_animal": "2025-07-28 13:12:24 +0800"
+    },
+    "done": true
+  },
+  "minecraft:adventure/walk_on_powder_snow_with_leather_boots": {
+    "criteria": {
+      "walk_on_powder_snow_with_leather_boots": "2025-07-28 13:51:10 +0800"
+    },
+    "done": true
+  },
+  "minecraft:recipes/building_blocks/dark_oak_planks": {
+    "criteria": {
+      "has_log": "2025-07-28 13:57:21 +0800"
+    },
+    "done": true
+  },
+  "minecraft:recipes/building_blocks/dark_oak_wood": {
+    "criteria": {
+      "has_log": "2025-07-28 13:57:21 +0800"
+    },
+    "done": true
+  },
+  "minecraft:adventure/voluntary_exile": {
+    "criteria": {
+      "voluntary_exile": "2025-07-28 13:58:31 +0800"
     },
     "done": true
   },
