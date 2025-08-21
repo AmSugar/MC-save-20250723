@@ -7,14 +7,19 @@
   },
   "minecraft:adventure/adventuring_time": {
     "criteria": {
+      "minecraft:cold_ocean": "2025-08-16 10:55:42 +0800",
       "minecraft:deep_ocean": "2025-07-30 21:04:03 +0800",
-      "minecraft:swamp": "2025-07-31 10:09:31 +0800"
+      "minecraft:river": "2025-08-04 11:01:32 +0800",
+      "minecraft:swamp": "2025-07-31 10:09:31 +0800",
+      "minecraft:stony_shore": "2025-08-20 21:09:28 +0800",
+      "minecraft:plains": "2025-08-04 10:53:52 +0800"
     },
     "done": false
   },
   "minecraft:nether/explore_nether": {
     "criteria": {
-      "minecraft:nether_wastes": "2025-07-31 09:02:56 +0800"
+      "minecraft:nether_wastes": "2025-07-31 09:02:56 +0800",
+      "minecraft:basalt_deltas": "2025-08-16 11:52:57 +0800"
     },
     "done": false
   },
@@ -102,12 +107,6 @@
     },
     "done": true
   },
-  "minecraft:adventure/root": {
-    "criteria": {
-      "killed_by_something": "2025-07-31 10:09:41 +0800"
-    },
-    "done": true
-  },
   "minecraft:recipes/building_blocks/stone": {
     "criteria": {
       "has_cobblestone": "2025-07-31 10:09:31 +0800"
@@ -177,6 +176,36 @@
   "minecraft:recipes/transportation/dark_oak_boat": {
     "criteria": {
       "in_water": "2025-07-31 10:09:31 +0800"
+    },
+    "done": true
+  },
+  "minecraft:adventure/root": {
+    "criteria": {
+      "killed_by_something": "2025-07-31 10:09:41 +0800"
+    },
+    "done": true
+  },
+  "minecraft:end/root": {
+    "criteria": {
+      "entered_end": "2025-08-19 18:01:21 +0800"
+    },
+    "done": true
+  },
+  "minecraft:story/enter_the_end": {
+    "criteria": {
+      "entered_end": "2025-08-19 18:01:21 +0800"
+    },
+    "done": true
+  },
+  "minecraft:recipes/decorations/soul_campfire": {
+    "criteria": {
+      "has_soul_sand": "2025-08-21 14:09:57 +0800"
+    },
+    "done": true
+  },
+  "minecraft:recipes/decorations/soul_torch": {
+    "criteria": {
+      "has_soul_sand": "2025-08-21 14:09:57 +0800"
     },
     "done": true
   },

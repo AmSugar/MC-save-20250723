@@ -1,0 +1,13 @@
+# Config version is auto-generated
+# DO NOT CHANGE
+configVersion = 2
+# Simple toggle for the mod! Set to false to disable.
+modEnabled = true
+# Allow bow enchantments (i.e. infinity, mending) to combine.
+bows = true
+# Allow crossbow enchantments (i.e. multishot, piercing) to combine.
+crossbows = true
+# Allow armor enchantments (i.e. X protection) to combine.
+armor = true
+# Allow damage enchantments (i.e. sharpness, smite) to combine.
+damage = true
