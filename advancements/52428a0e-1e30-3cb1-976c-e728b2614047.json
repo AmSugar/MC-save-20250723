@@ -7,6 +7,7 @@
   },
   "minecraft:adventure/adventuring_time": {
     "criteria": {
+      "minecraft:deep_cold_ocean": "2025-08-29 18:01:04 +0800",
       "minecraft:river": "2025-08-18 12:15:17 +0800",
       "minecraft:plains": "2025-08-18 13:55:53 +0800"
     },
@@ -15,6 +16,12 @@
   "minecraft:adventure/root": {
     "criteria": {
       "killed_by_something": "2025-08-18 13:55:54 +0800"
+    },
+    "done": true
+  },
+  "minecraft:recipes/misc/black_dye": {
+    "criteria": {
+      "has_ink_sac": "2025-08-29 18:03:11 +0800"
     },
     "done": true
   },
