@@ -11,5 +11,11 @@
     },
     "done": false
   },
+  "minecraft:adventure/root": {
+    "criteria": {
+      "killed_by_something": "2025-08-30 15:14:01 +0800"
+    },
+    "done": true
+  },
   "DataVersion": 3955
 }
